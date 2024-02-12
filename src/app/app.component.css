@@ -1,4 +1,4 @@
-.main {
+.app-container {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -9,7 +9,7 @@
     position: relative;
 }
 
-.content {
+.app-content {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .content {
+    .app-content {
       flex-direction: column;
       width: max-content;
     }

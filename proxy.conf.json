@@ -1,0 +1,8 @@
+{
+    "/api": {
+        "target": "https://nh-news-api-sx25chuica-uc.a.run.app",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": { "^/api": "" }
+    }
+}
