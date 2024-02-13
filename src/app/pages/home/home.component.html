@@ -1,9 +1,10 @@
-<p>home works!</p>
 
-@for ( new of news; track new.id) {
-    <div>
-        {{ new.title }}
-    </div>
-  } @empty {
-    Empty list of users
-  }
+<div class="box-home">
+    @for ( new of news; track new.id) {
+        <div>
+            <app-new [new]="new"></app-new>
+        </div>
+    } @empty {
+        Empty list of users
+    }
+</div>

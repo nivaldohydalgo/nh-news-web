@@ -60,3 +60,5 @@ table {
 :root {
     --standard-font: calc(20px + 0.2vw);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
