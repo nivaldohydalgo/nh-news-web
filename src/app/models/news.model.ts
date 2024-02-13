@@ -1,6 +1,16 @@
+import { Timestamp } from "rxjs";
 
 export interface News {
-    id?: string;
-    name: string;
-    age: number
+    id?: number,
+    category: number,
+    title: string,
+    subtitle: string,
+    content: string,
+    image: string,
+    author: string,
+    local: string,
+    date: Date,
+    is_important: boolean,
+    is_active: boolean,
+    ts_include: Date,
 }
