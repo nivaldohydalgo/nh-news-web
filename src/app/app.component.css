@@ -1,32 +1,36 @@
-.app-container {
-    width: 100%;
-    min-height: 100%;
+.app-view {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: inherit;
-    position: relative;
+    align-items: flex-start;
+}
+
+.app-container {
+    width: calc(638px + ((100vw - 638px) * 0.4));
+    font-size: var(--standard-font);
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .app-content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+} 
+
+.app-divider {
     width: 100%;
-    max-width: 700px;
-    margin-bottom: 3rem;
+    height: 1px;
+    background-color: #434343;
+    opacity: 0.4;
 }
 
 @media screen and (max-width: 650px) {
-    .app-content {
-      flex-direction: column;
-      width: max-content;
-    }
-
-    .divider {
-      height: 1px;
-      width: 100%;
-      background: var(--red-to-pink-to-purple-horizontal-gradient);
-      margin-block: 1.5rem;
+    .app-container {
+        flex-direction: column;
+        width: calc(100vw - 12px);
     }
 }

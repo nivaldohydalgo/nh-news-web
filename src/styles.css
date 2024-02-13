@@ -53,3 +53,10 @@ table {
     border-spacing: 0;
 }
 
+/* ========================================== 
+     G L O B A L   D E F I N I T I O N S 
+========================================== */
+
+:root {
+    --standard-font: calc(20px + 0.2vw);
+}
