@@ -62,10 +62,6 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-         /* "options": {
-            "browserTarget": "nh-news-web:build",
-            "proxyConfig": "./proxy.conf.json"
-            }, */
           "configurations": {
             "production": {
               "buildTarget": "nh-news-web:build:production"

@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 
+
+
 import { News } from '../../models/news.model'
 
 @Component({

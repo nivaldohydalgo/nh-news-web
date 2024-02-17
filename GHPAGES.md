@@ -2,7 +2,6 @@
 ## Buildar o projeto para o GITPages:
 ng build --base-href https://nivaldohydalgo.github.io/nh-news-web/
 
-
 ## Comittando o projeto na branch gh-pages no Github:
 ngh --dir=dist/browser
 

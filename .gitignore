@@ -2,6 +2,8 @@
 
 # Environments - Não publicar os environments no Git
 environments
+# Não publicar as imagens no GIT
+news-images
 
 # Compiled output
 /dist
