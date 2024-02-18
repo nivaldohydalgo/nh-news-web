@@ -54,11 +54,23 @@ table {
 }
 
 /* ========================================== 
+        FONTS AND ICONS CONFIGURATION 
+========================================== */
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+/* ========================================== 
      G L O B A L   D E F I N I T I O N S 
 ========================================== */
 
 :root {
-    --standard-font: calc(20px + 0.2vw);
+    --standard-font: calc(6px + 3vw);
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

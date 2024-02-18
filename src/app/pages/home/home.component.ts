@@ -1,5 +1,7 @@
 import { Component, OnInit, isDevMode } from '@angular/core';
 
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; 
+
 import { News } from '../../models/news.model';
 
 import { NewsService } from '../../services/news.service';
@@ -7,12 +9,15 @@ import { NewComponent } from '../../components/new/new.component';
 
 import { environment_dev } from '../../../environments/environment.dev';
 import { environment_pro } from '../../../environments/environment.pro';
+import { MenuComponent } from '../menu/menu.component';
 
 @Component({
     selector: 'app-home',
     standalone: true,
     imports: [
-        NewComponent
+        NewComponent,
+        MenuComponent,
+        MatProgressSpinnerModule
     ],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css'

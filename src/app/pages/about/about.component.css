@@ -1,0 +1,58 @@
+
+.box-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20vw;
+}
+
+.about-text {
+    margin-top: 10vw;
+    font-family: "Roboto", sans-serif;
+    font-size: calc(var(--standard-font) + 2px);
+    color: #666666;
+}
+
+.about-photo {
+    margin-top: 10vw;
+}
+
+.photo-style {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    border-color: #adb5bd;
+    border-style: solid;
+    border-width: 0.3vw;
+    padding: 0.6vw;
+}
+
+.about-name {
+    margin-top: 2vw;
+    font-family: "Oswald", serif;
+    font-size: calc(var(--standard-font) + 26px);
+    text-shadow: 2px 2px 8px #999999;
+    color: #1b4965;
+    line-height: calc(var(--standard-font) + 32px);
+    text-align: center;
+}
+
+.about-title {
+    margin-top: 10vw;
+    font-family: "Oswald", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: calc(var(--standard-font) + 4px);
+    color: #b23a48;
+}
+
+.about-content {
+    margin-top: 8vw;
+    font-family: "Merriweather", serif;
+    font-size: calc(var(--standard-font) + 1px);
+    color: #264653;
+}
+

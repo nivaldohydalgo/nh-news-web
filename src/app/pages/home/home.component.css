@@ -7,3 +7,12 @@
     margin-top: 8px;
     margin-bottom: 40px;
 }
+
+.box-spinner {
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
