@@ -12,7 +12,7 @@
 .about-text {
     margin-top: 10vw;
     font-family: "Roboto", sans-serif;
-    font-size: calc(var(--standard-font) + 2px);
+    font-size: clamp(21px, 3vw, 72px);
     color: #666666;
 }
 
@@ -33,10 +33,10 @@
 .about-name {
     margin-top: 2vw;
     font-family: "Oswald", serif;
-    font-size: calc(var(--standard-font) + 26px);
+    font-size: clamp(42px, 6vw, 144px);
     text-shadow: 2px 2px 8px #999999;
     color: #1b4965;
-    line-height: calc(var(--standard-font) + 32px);
+    line-height: clamp(49px, 7vw, 160px);
     text-align: center;
 }
 
@@ -45,14 +45,14 @@
     font-family: "Oswald", serif;
     font-weight: bold;
     font-style: italic;
-    font-size: calc(var(--standard-font) + 4px);
+    font-size: clamp(21px, 3vw, 72px);
     color: #b23a48;
 }
 
 .about-content {
-    margin-top: 8vw;
+    margin-top: 6vw;
     font-family: "Merriweather", serif;
-    font-size: calc(var(--standard-font) + 1px);
+    font-size: clamp(18px, 2.6vw, 60px);
     color: #264653;
 }
 

@@ -2,7 +2,7 @@
 .box-info{
     display: flex;
     flex-direction: column;
-    margin-top: 4vw;
+    margin-top: 2vw;
     margin-bottom: 12vw;
 }
 
@@ -10,48 +10,46 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6vw;
+    margin-top: 8vw;
 }
 
 .item-title {
     display: flex;
     justify-content: center;
     font-family: "Oswald", serif;
-    color: #ff5a5f;
-    font-size: calc(var(--standard-font) + 7px);
+    color: #d90429;
+    font-size: clamp(25px, 3.4vw, 80px);
     font-weight: bold;
     text-shadow: 2px 2px 8px #999999;
-    margin-bottom: 2vw;
 }
 
 .item-subtitle {
     display: flex;
     justify-content: center;
     font-family: "Merriweather", serif;
-    color: #3a506b;
-    font-size: calc(var(--standard-font) + 1px);
+    font-size: clamp(21px, 3vw, 72px);
     font-weight: bolder;
     font-style: italic;
-    margin-top: 8vw;
+    margin-top: 7vw;
 }
 
 .button-subtitle {
+    display: flex;
+    align-items: center;
     background-color: #f9dcc4;
+    min-height: clamp(28px, 4vw, 96px);
     color: #7f5539;
-    padding: 6px 20px 5px 20px;
-    border-radius: 6px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    border-radius: 1.6vw;
 }
 
 .item-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-family: "Merriweather", serif;
-    font-size: calc(var(--standard-font) - 2px);
-    line-height: calc(var(--standard-font) + 10px);
-    word-spacing: 4px;
+    font-size: clamp(14px, 2vw, 48px);
+    line-height: clamp(21px, 3vw, 72px);
+    word-spacing: 0.6vw;
     margin-top: 6vw;
 }
 
