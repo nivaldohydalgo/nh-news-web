@@ -1,7 +1,6 @@
 import { Component, OnInit, isDevMode } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { TopHeaderComponent } from './pages/top-header/top-header.component'
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 
@@ -11,7 +10,6 @@ import { FooterComponent } from './pages/footer/footer.component';
     standalone: true,
     imports: [
         RouterOutlet,
-        TopHeaderComponent,
         HeaderComponent,
         FooterComponent
     ],

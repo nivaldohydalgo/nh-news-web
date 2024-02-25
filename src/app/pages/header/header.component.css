@@ -2,9 +2,53 @@
 .box-header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box-header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+.box-header-height {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    height: calc( 7.6 * var(--font-size) + 40px);
+}
+
+.box-header-height-top {
+    padding-top: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-header-height-medium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-header-height-bottom {
+    display: flex;
+    justify-content: flex-end;
+    font-size: calc( 1 * var(--font-size));
+}
+
+.icon-nh {
+    width: calc( 7.6 * var(--font-size));
+    height: calc( 7.6 * var(--font-size));
+}
+
+.title-news {
+    font-size: calc( 4 * var(--font-size));
+    font-weight: bolder;
+    color: #666666;
     
 }
