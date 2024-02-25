@@ -9,7 +9,7 @@
 
 .app-container {
     width: calc(638px + ((100vw - 638px) * 0.4));
-    font-size: var(--standard-font);
+    font-size: calc( 1.6 * var(--font-size) );
     display: flex;
     flex-direction: column;
     margin-left: 16px;

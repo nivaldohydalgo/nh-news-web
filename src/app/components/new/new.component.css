@@ -71,7 +71,7 @@
 .box-new-header-date-category{
     display: flex;
     flex-direction: column;
-    font-size: calc(var(--standard-font) - 10px);
+    font-size: calc( 1.2 * var(--font-size) );
     margin-top: 1.2vw;
     font-family: "Roboto", sans-serif;
 }
@@ -79,7 +79,7 @@
 .box-new-header-author{
     display: flex;
     flex-direction: column;
-    font-size: calc(var(--standard-font) - 8px);
+    font-size: calc( 1.4 * var(--font-size) );
     margin-top: 8px;
     font-family: "Roboto", sans-serif;
 }
@@ -87,7 +87,7 @@
 .box-new-content {
     display: flex;
     flex-direction: column;
-    font-size: calc(var(--standard-font) - 1px);
+    font-size: calc( 1.8 * var(--font-size) );
     margin-top: 8px;
     font-family: "Merriweather", serif;
     font-weight: 400;

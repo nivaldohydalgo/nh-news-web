@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 8vw;
+    margin-top: 10vw;
 }
 
 .item-title {
@@ -18,16 +18,19 @@
     justify-content: center;
     font-family: "Oswald", serif;
     color: #d90429;
-    font-size: clamp(25px, 3.4vw, 80px);
+    font-size: calc( 2.3 * var(--font-size));
+    line-height: calc( 3.0 * var(--font-size));
     font-weight: bold;
     text-shadow: 2px 2px 8px #999999;
+    text-align: center;
 }
 
 .item-subtitle {
     display: flex;
     justify-content: center;
     font-family: "Merriweather", serif;
-    font-size: clamp(21px, 3vw, 72px);
+    font-size: calc( 1.8 * var(--font-size));
+    line-height: calc( 2.6 * var(--font-size));
     font-weight: bolder;
     font-style: italic;
     margin-top: 7vw;
@@ -37,7 +40,7 @@
     display: flex;
     align-items: center;
     background-color: #f9dcc4;
-    min-height: clamp(28px, 4vw, 96px);
+    min-height: calc( 2.8 * var(--font-size));
     color: #7f5539;
     padding-left: 6vw;
     padding-right: 6vw;
@@ -47,9 +50,9 @@
 .item-text {
     text-align: center;
     font-family: "Merriweather", serif;
-    font-size: clamp(14px, 2vw, 48px);
-    line-height: clamp(21px, 3vw, 72px);
-    word-spacing: 0.6vw;
+    font-size: calc( 1.6 * var(--font-size));
+    line-height: calc( 2.4 * var(--font-size));
+    word-spacing: 0.3vw;
     margin-top: 6vw;
 }
 

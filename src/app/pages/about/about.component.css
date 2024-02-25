@@ -12,7 +12,10 @@
 .about-text {
     margin-top: 10vw;
     font-family: "Roboto", sans-serif;
-    font-size: clamp(21px, 3vw, 72px);
+    font-style: italic;
+    font-weight: bold;
+    font-size: calc( 1.8 * var(--font-size));
+    line-height: calc( 2.6 * var(--font-size));
     color: #666666;
 }
 
@@ -21,8 +24,8 @@
 }
 
 .photo-style {
-    width: 18vw;
-    height: 18vw;
+    width: calc( 8.0 * var(--font-size));
+    height: calc( 8.0 * var(--font-size));
     border-radius: 50%;
     border-color: #adb5bd;
     border-style: solid;
@@ -33,10 +36,10 @@
 .about-name {
     margin-top: 2vw;
     font-family: "Oswald", serif;
-    font-size: clamp(42px, 6vw, 144px);
+    font-size: calc( 4.0 * var(--font-size));
+    line-height: calc( 5.5 * var(--font-size));
     text-shadow: 2px 2px 8px #999999;
     color: #1b4965;
-    line-height: clamp(49px, 7vw, 160px);
     text-align: center;
 }
 
@@ -45,14 +48,17 @@
     font-family: "Oswald", serif;
     font-weight: bold;
     font-style: italic;
-    font-size: clamp(21px, 3vw, 72px);
+    font-size: calc( 2.2 * var(--font-size));
+    line-height: calc( 3.1 * var(--font-size));
     color: #b23a48;
 }
 
 .about-content {
     margin-top: 6vw;
     font-family: "Merriweather", serif;
-    font-size: clamp(18px, 2.6vw, 60px);
+    font-size: calc( 1.8 * var(--font-size));
+    line-height: calc( 2.6 * var(--font-size));
+    word-wrap: break-word !important;
     color: #264653;
 }
 
